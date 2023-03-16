@@ -4,18 +4,18 @@ using namespace std;
 
 int main()
 {
-    int arr[10];
+    int arr[20];
     float total = 0, rata2;
 
-    cout << "Masukkan 10 angka: " << endl;
+    cout << "Masukkan 20 angka: " << endl;
 
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < 20; i++)
     {
         cin >> arr[i];
         total += arr[i];
     }
 
-    rata = total / 10;
+    rata = total / 20;
 
     cout << "Rata-rata nilai elemen dalam array: " << rata2 << endl;
 
