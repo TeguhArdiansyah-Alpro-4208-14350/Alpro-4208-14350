@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    int arr[10], total = 0;
+    int arr[20], total = 0;
 
-    cout << "Masukkan 10 angka: " << endl;
+    cout << "Masukkan 20 angka: " << endl;
 
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < 20; i++)
     {
         cin >> arr[i];
         total += arr[i];
